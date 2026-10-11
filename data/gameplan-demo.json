@@ -1,0 +1,1118 @@
+{
+  "source": "EXAMPLE / demo (embedded)",
+  "live": false,
+  "fetched_at": "2026-10-11T16:40:54-04:00",
+  "timezone": "America/New_York",
+  "home": {
+    "label": "Boyd family \u00b7 Millersville MD 21108",
+    "lat": 39.0596,
+    "lon": -76.6477
+  },
+  "weekend": {
+    "friday": "2026-10-16",
+    "saturday": "2026-10-17",
+    "sunday": "2026-10-18",
+    "label": "Fri 16\u2013Sun 18 Oct 2026"
+  },
+  "weather": {
+    "source": "EXAMPLE / demo (embedded)",
+    "live": false,
+    "location": {
+      "name": "Millersville, MD 21108",
+      "lat": 39.0596,
+      "lon": -76.6477,
+      "near": "Annapolis / Chesapeake Bay"
+    },
+    "units": {
+      "temp": "\u00b0F",
+      "precip": "in",
+      "wind": "mph"
+    },
+    "by_date": {
+      "2026-10-11": {
+        "date": "2026-10-11",
+        "weather_code": 65,
+        "label": "Heavy rain",
+        "icon": "\ud83c\udf27\ufe0f",
+        "temp_max_f": 67.5,
+        "temp_min_f": 60.8,
+        "precip_in": 2.06,
+        "precip_prob": 93,
+        "sunrise": "2026-10-11T07:12",
+        "sunset": "2026-10-11T18:33",
+        "wind_mph": 12.2
+      },
+      "2026-10-12": {
+        "date": "2026-10-12",
+        "weather_code": 63,
+        "label": "Rain",
+        "icon": "\ud83c\udf27\ufe0f",
+        "temp_max_f": 72.3,
+        "temp_min_f": 61.0,
+        "precip_in": 0.17,
+        "precip_prob": 42,
+        "sunrise": "2026-10-12T07:13",
+        "sunset": "2026-10-12T18:32",
+        "wind_mph": 13.3
+      },
+      "2026-10-13": {
+        "date": "2026-10-13",
+        "weather_code": 51,
+        "label": "Light drizzle",
+        "icon": "\ud83c\udf26\ufe0f",
+        "temp_max_f": 81.5,
+        "temp_min_f": 58.5,
+        "precip_in": 0.0,
+        "precip_prob": 1,
+        "sunrise": "2026-10-13T07:14",
+        "sunset": "2026-10-13T18:30",
+        "wind_mph": 9.8
+      },
+      "2026-10-14": {
+        "date": "2026-10-14",
+        "weather_code": 51,
+        "label": "Light drizzle",
+        "icon": "\ud83c\udf26\ufe0f",
+        "temp_max_f": 86.7,
+        "temp_min_f": 65.7,
+        "precip_in": 0.0,
+        "precip_prob": 6,
+        "sunrise": "2026-10-14T07:15",
+        "sunset": "2026-10-14T18:29",
+        "wind_mph": 10.4
+      },
+      "2026-10-15": {
+        "date": "2026-10-15",
+        "weather_code": 55,
+        "label": "Heavy drizzle",
+        "icon": "\ud83c\udf27\ufe0f",
+        "temp_max_f": 72.9,
+        "temp_min_f": 60.8,
+        "precip_in": 0.09,
+        "precip_prob": 10,
+        "sunrise": "2026-10-15T07:16",
+        "sunset": "2026-10-15T18:27",
+        "wind_mph": 10.6
+      },
+      "2026-10-16": {
+        "date": "2026-10-16",
+        "weather_code": 51,
+        "label": "Light drizzle",
+        "icon": "\ud83c\udf26\ufe0f",
+        "temp_max_f": 81.1,
+        "temp_min_f": 57.6,
+        "precip_in": 0.07,
+        "precip_prob": 33,
+        "sunrise": "2026-10-16T07:17",
+        "sunset": "2026-10-16T18:26",
+        "wind_mph": 17.0
+      },
+      "2026-10-17": {
+        "date": "2026-10-17",
+        "weather_code": 2,
+        "label": "Partly cloudy",
+        "icon": "\u26c5",
+        "temp_max_f": 55.9,
+        "temp_min_f": 38.3,
+        "precip_in": 0.0,
+        "precip_prob": 16,
+        "sunrise": "2026-10-17T07:18",
+        "sunset": "2026-10-17T18:25",
+        "wind_mph": 19.5
+      },
+      "2026-10-18": {
+        "date": "2026-10-18",
+        "weather_code": 1,
+        "label": "Mostly clear",
+        "icon": "\ud83c\udf24\ufe0f",
+        "temp_max_f": 53.8,
+        "temp_min_f": 34.5,
+        "precip_in": 0.0,
+        "precip_prob": 5,
+        "sunrise": "2026-10-18T07:19",
+        "sunset": "2026-10-18T18:23",
+        "wind_mph": 12.8
+      },
+      "2026-10-19": {
+        "date": "2026-10-19",
+        "weather_code": 0,
+        "label": "Clear",
+        "icon": "\u2600\ufe0f",
+        "temp_max_f": 62.8,
+        "temp_min_f": 35.8,
+        "precip_in": 0.0,
+        "precip_prob": 5,
+        "sunrise": "2026-10-19T07:20",
+        "sunset": "2026-10-19T18:22",
+        "wind_mph": 8.7
+      },
+      "2026-10-20": {
+        "date": "2026-10-20",
+        "weather_code": 3,
+        "label": "Overcast",
+        "icon": "\u2601\ufe0f",
+        "temp_max_f": 69.4,
+        "temp_min_f": 44.8,
+        "precip_in": 0.0,
+        "precip_prob": 5,
+        "sunrise": "2026-10-20T07:21",
+        "sunset": "2026-10-20T18:20",
+        "wind_mph": 4.9
+      }
+    },
+    "raw_timezone": "America/New_York"
+  },
+  "tides": {
+    "source": "EXAMPLE / demo (embedded)",
+    "live": false,
+    "station": {
+      "id": "8575512",
+      "name": "Annapolis, MD",
+      "lat": 38.9833,
+      "lon": -76.48,
+      "datum": "MLLW",
+      "units": "feet"
+    },
+    "extremes": [
+      {
+        "t": "2026-10-16 04:12",
+        "v": 0.83,
+        "type": "L"
+      },
+      {
+        "t": "2026-10-16 09:11",
+        "v": 1.136,
+        "type": "H"
+      },
+      {
+        "t": "2026-10-16 15:23",
+        "v": 0.421,
+        "type": "L"
+      },
+      {
+        "t": "2026-10-16 22:24",
+        "v": 1.543,
+        "type": "H"
+      },
+      {
+        "t": "2026-10-17 05:02",
+        "v": 0.843,
+        "type": "L"
+      },
+      {
+        "t": "2026-10-17 10:01",
+        "v": 1.106,
+        "type": "H"
+      },
+      {
+        "t": "2026-10-17 16:11",
+        "v": 0.461,
+        "type": "L"
+      },
+      {
+        "t": "2026-10-17 23:15",
+        "v": 1.501,
+        "type": "H"
+      },
+      {
+        "t": "2026-10-18 05:54",
+        "v": 0.837,
+        "type": "L"
+      },
+      {
+        "t": "2026-10-18 10:59",
+        "v": 1.093,
+        "type": "H"
+      },
+      {
+        "t": "2026-10-18 17:05",
+        "v": 0.495,
+        "type": "L"
+      }
+    ],
+    "by_date": {
+      "2026-10-16": [
+        {
+          "t": "2026-10-16 04:12",
+          "v": 0.83,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-16 09:11",
+          "v": 1.136,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-16 15:23",
+          "v": 0.421,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-16 22:24",
+          "v": 1.543,
+          "type": "H"
+        }
+      ],
+      "2026-10-17": [
+        {
+          "t": "2026-10-17 05:02",
+          "v": 0.843,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-17 10:01",
+          "v": 1.106,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-17 16:11",
+          "v": 0.461,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-17 23:15",
+          "v": 1.501,
+          "type": "H"
+        }
+      ],
+      "2026-10-18": [
+        {
+          "t": "2026-10-18 05:54",
+          "v": 0.837,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-18 10:59",
+          "v": 1.093,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-18 17:05",
+          "v": 0.495,
+          "type": "L"
+        }
+      ]
+    }
+  },
+  "days": [
+    {
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "short": "Fri 16",
+      "weather": {
+        "date": "2026-10-16",
+        "weather_code": 51,
+        "label": "Light drizzle",
+        "icon": "\ud83c\udf26\ufe0f",
+        "temp_max_f": 81.1,
+        "temp_min_f": 57.6,
+        "precip_in": 0.07,
+        "precip_prob": 33,
+        "sunrise": "2026-10-16T07:17",
+        "sunset": "2026-10-16T18:26",
+        "wind_mph": 17.0
+      },
+      "tides": [
+        {
+          "t": "2026-10-16 04:12",
+          "v": 0.83,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-16 09:11",
+          "v": 1.136,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-16 15:23",
+          "v": 0.421,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-16 22:24",
+          "v": 1.543,
+          "type": "H"
+        }
+      ],
+      "score": 30.0,
+      "rainy": false,
+      "windy": false
+    },
+    {
+      "date": "2026-10-17",
+      "weekday": "Saturday",
+      "short": "Sat 17",
+      "weather": {
+        "date": "2026-10-17",
+        "weather_code": 2,
+        "label": "Partly cloudy",
+        "icon": "\u26c5",
+        "temp_max_f": 55.9,
+        "temp_min_f": 38.3,
+        "precip_in": 0.0,
+        "precip_prob": 16,
+        "sunrise": "2026-10-17T07:18",
+        "sunset": "2026-10-17T18:25",
+        "wind_mph": 19.5
+      },
+      "tides": [
+        {
+          "t": "2026-10-17 05:02",
+          "v": 0.843,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-17 10:01",
+          "v": 1.106,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-17 16:11",
+          "v": 0.461,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-17 23:15",
+          "v": 1.501,
+          "type": "H"
+        }
+      ],
+      "score": 58.6,
+      "rainy": false,
+      "windy": true
+    },
+    {
+      "date": "2026-10-18",
+      "weekday": "Sunday",
+      "short": "Sun 18",
+      "weather": {
+        "date": "2026-10-18",
+        "weather_code": 1,
+        "label": "Mostly clear",
+        "icon": "\ud83c\udf24\ufe0f",
+        "temp_max_f": 53.8,
+        "temp_min_f": 34.5,
+        "precip_in": 0.0,
+        "precip_prob": 5,
+        "sunrise": "2026-10-18T07:19",
+        "sunset": "2026-10-18T18:23",
+        "wind_mph": 12.8
+      },
+      "tides": [
+        {
+          "t": "2026-10-18 05:54",
+          "v": 0.837,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-18 10:59",
+          "v": 1.093,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-18 17:05",
+          "v": 0.495,
+          "type": "L"
+        }
+      ],
+      "score": 60.0,
+      "rainy": false,
+      "windy": false
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan-trails-2026-10-16",
+      "day_index": 0,
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "kind": "trails",
+      "title": "Trail + playground loop",
+      "spot": {
+        "id": "kinder-farm",
+        "name": "Kinder Farm Park",
+        "area": "Millersville",
+        "drive_min": 8,
+        "why": "Home-base trails, farm animals, playgrounds \u2014 Char & Vic territory.",
+        "kids": true,
+        "best": "morning / golden hour",
+        "tip": "Loop the Farm Trail then hit the playground before sunset."
+      },
+      "alternates": [
+        {
+          "id": "quiet-waters",
+          "name": "Quiet Waters Park",
+          "area": "Annapolis",
+          "drive_min": 20,
+          "why": "Wooded paths, South River overlooks, sculptures, and a big playground.",
+          "kids": true,
+          "best": "late afternoon",
+          "tip": "Walk to the overlook for sunset colors on the river."
+        },
+        {
+          "id": "downs-park",
+          "name": "Downs Park",
+          "area": "Pasadena",
+          "drive_min": 18,
+          "why": "Bay cliffs, boardwalk, and open fields for a frisbee cooldown.",
+          "kids": true,
+          "best": "midday to dusk",
+          "tip": "Cliff trail can be breezy \u2014 great for kite days."
+        }
+      ],
+      "weather": {
+        "date": "2026-10-16",
+        "weather_code": 51,
+        "label": "Light drizzle",
+        "icon": "\ud83c\udf26\ufe0f",
+        "temp_max_f": 81.1,
+        "temp_min_f": 57.6,
+        "precip_in": 0.07,
+        "precip_prob": 33,
+        "sunrise": "2026-10-16T07:17",
+        "sunset": "2026-10-16T18:26",
+        "wind_mph": 17.0
+      },
+      "tides": [
+        {
+          "t": "2026-10-16 04:12",
+          "v": 0.83,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-16 09:11",
+          "v": 1.136,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-16 15:23",
+          "v": 0.421,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-16 22:24",
+          "v": 1.543,
+          "type": "H"
+        }
+      ],
+      "score": 30.0,
+      "window": "aim for golden hour before sunset 6:26 PM",
+      "rainy": false,
+      "kids_mode": false,
+      "blurb": "Kinder Farm Park (Millersville, ~8 min). Friday: \ud83c\udf26\ufe0f Light drizzle, 58\u201381\u00b0F, 33% precip. Pack water bottles and a light layer for Char & Vic."
+    },
+    {
+      "id": "plan-fishing-2026-10-17",
+      "day_index": 1,
+      "date": "2026-10-17",
+      "weekday": "Saturday",
+      "kind": "fishing",
+      "title": "Bay fishing run",
+      "spot": {
+        "id": "jonas-green",
+        "name": "Jonas Green Park",
+        "area": "Annapolis",
+        "drive_min": 18,
+        "why": "Free fishing pier on the Severn with easy parking and restrooms.",
+        "kids": true,
+        "best": "incoming tide / dusk",
+        "tip": "Cast for white perch and spot near the bridge abutments."
+      },
+      "alternates": [
+        {
+          "id": "fort-smallwood",
+          "name": "Fort Smallwood Park",
+          "area": "Pasadena",
+          "drive_min": 20,
+          "why": "Rock walls + pier access with picnic tables for a family base camp.",
+          "kids": true,
+          "best": "two hours before high",
+          "tip": "Bring sweatshirts for the evening breeze off the Patapsco."
+        },
+        {
+          "id": "sandy-point",
+          "name": "Sandy Point State Park",
+          "area": "Skidmore",
+          "drive_min": 22,
+          "why": "Bay beach, jetties, and a classic Chesapeake horizon.",
+          "kids": true,
+          "best": "morning flood / late afternoon",
+          "tip": "State park entry fee; check wind \u2014 whitecaps mean tough casting."
+        }
+      ],
+      "weather": {
+        "date": "2026-10-17",
+        "weather_code": 2,
+        "label": "Partly cloudy",
+        "icon": "\u26c5",
+        "temp_max_f": 55.9,
+        "temp_min_f": 38.3,
+        "precip_in": 0.0,
+        "precip_prob": 16,
+        "sunrise": "2026-10-17T07:18",
+        "sunset": "2026-10-17T18:25",
+        "wind_mph": 19.5
+      },
+      "tides": [
+        {
+          "t": "2026-10-17 05:02",
+          "v": 0.843,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-17 10:01",
+          "v": 1.106,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-17 16:11",
+          "v": 0.461,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-17 23:15",
+          "v": 1.501,
+          "type": "H"
+        }
+      ],
+      "score": 58.6,
+      "window": "around high tide 10:01 AM (1.106 ft MLLW)",
+      "rainy": false,
+      "kids_mode": false,
+      "blurb": "Jonas Green Park (Annapolis, ~18 min). Saturday: \u26c5 Partly cloudy, 38\u201356\u00b0F, 16% precip. Cast for white perch and spot near the bridge abutments."
+    },
+    {
+      "id": "plan-wildlife-2026-10-18",
+      "day_index": 2,
+      "date": "2026-10-18",
+      "weekday": "Sunday",
+      "kind": "wildlife",
+      "title": "Wildlife / marsh morning",
+      "spot": {
+        "id": "patuxent-north",
+        "name": "Patuxent Research Refuge \u2014 North Tract",
+        "area": "Laurel / Bowie edge",
+        "drive_min": 28,
+        "why": "Wildlife driving loop and quiet trails; deer, waterfowl, and big sky.",
+        "kids": true,
+        "best": "morning",
+        "tip": "Visitor contact station hours vary \u2014 pack binoculars."
+      },
+      "alternates": [
+        {
+          "id": "downs-wildlife",
+          "name": "Downs Park \u00b7 bay overlook",
+          "area": "Pasadena",
+          "drive_min": 18,
+          "why": "Easy cliff-top birding and Bay views \u2014 short hop for Char & Vic.",
+          "kids": true,
+          "best": "morning / dusk",
+          "tip": "Bring binoculars; watch for osprey over the water."
+        },
+        {
+          "id": "jug-bay",
+          "name": "Jug Bay Wetlands Sanctuary",
+          "area": "Lothian",
+          "drive_min": 30,
+          "why": "Marsh boardwalks and Patuxent River overlooks for birding.",
+          "kids": false,
+          "best": "morning / outgoing tide",
+          "tip": "Closed Mondays; wear boots after rain."
+        }
+      ],
+      "weather": {
+        "date": "2026-10-18",
+        "weather_code": 1,
+        "label": "Mostly clear",
+        "icon": "\ud83c\udf24\ufe0f",
+        "temp_max_f": 53.8,
+        "temp_min_f": 34.5,
+        "precip_in": 0.0,
+        "precip_prob": 5,
+        "sunrise": "2026-10-18T07:19",
+        "sunset": "2026-10-18T18:23",
+        "wind_mph": 12.8
+      },
+      "tides": [
+        {
+          "t": "2026-10-18 05:54",
+          "v": 0.837,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-18 10:59",
+          "v": 1.093,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-18 17:05",
+          "v": 0.495,
+          "type": "L"
+        }
+      ],
+      "score": 60.0,
+      "window": "aim for golden hour before sunset 6:23 PM",
+      "rainy": false,
+      "kids_mode": false,
+      "blurb": "Patuxent Research Refuge \u2014 North Tract (Laurel / Bowie edge, ~28 min). Sunday: \ud83c\udf24\ufe0f Mostly clear, 34\u201354\u00b0F, 5% precip. Binoculars optional; quiet voices near the marsh."
+    }
+  ],
+  "plans_kids": [
+    {
+      "id": "plan-trails-2026-10-16",
+      "day_index": 0,
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "kind": "trails",
+      "title": "Trail + playground loop",
+      "spot": {
+        "id": "kinder-farm",
+        "name": "Kinder Farm Park",
+        "area": "Millersville",
+        "drive_min": 8,
+        "why": "Home-base trails, farm animals, playgrounds \u2014 Char & Vic territory.",
+        "kids": true,
+        "best": "morning / golden hour",
+        "tip": "Loop the Farm Trail then hit the playground before sunset."
+      },
+      "alternates": [
+        {
+          "id": "downs-park",
+          "name": "Downs Park",
+          "area": "Pasadena",
+          "drive_min": 18,
+          "why": "Bay cliffs, boardwalk, and open fields for a frisbee cooldown.",
+          "kids": true,
+          "best": "midday to dusk",
+          "tip": "Cliff trail can be breezy \u2014 great for kite days."
+        },
+        {
+          "id": "quiet-waters",
+          "name": "Quiet Waters Park",
+          "area": "Annapolis",
+          "drive_min": 20,
+          "why": "Wooded paths, South River overlooks, sculptures, and a big playground.",
+          "kids": true,
+          "best": "late afternoon",
+          "tip": "Walk to the overlook for sunset colors on the river."
+        }
+      ],
+      "weather": {
+        "date": "2026-10-16",
+        "weather_code": 51,
+        "label": "Light drizzle",
+        "icon": "\ud83c\udf26\ufe0f",
+        "temp_max_f": 81.1,
+        "temp_min_f": 57.6,
+        "precip_in": 0.07,
+        "precip_prob": 33,
+        "sunrise": "2026-10-16T07:17",
+        "sunset": "2026-10-16T18:26",
+        "wind_mph": 17.0
+      },
+      "tides": [
+        {
+          "t": "2026-10-16 04:12",
+          "v": 0.83,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-16 09:11",
+          "v": 1.136,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-16 15:23",
+          "v": 0.421,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-16 22:24",
+          "v": 1.543,
+          "type": "H"
+        }
+      ],
+      "score": 30.0,
+      "window": "aim for golden hour before sunset 6:26 PM",
+      "rainy": false,
+      "kids_mode": true,
+      "blurb": "Kinder Farm Park (Millersville, ~8 min). Friday: \ud83c\udf26\ufe0f Light drizzle, 58\u201381\u00b0F, 33% precip. Pack water bottles and a light layer for Char & Vic."
+    },
+    {
+      "id": "plan-fishing-2026-10-17",
+      "day_index": 1,
+      "date": "2026-10-17",
+      "weekday": "Saturday",
+      "kind": "fishing",
+      "title": "Bay fishing run",
+      "spot": {
+        "id": "jonas-green",
+        "name": "Jonas Green Park",
+        "area": "Annapolis",
+        "drive_min": 18,
+        "why": "Free fishing pier on the Severn with easy parking and restrooms.",
+        "kids": true,
+        "best": "incoming tide / dusk",
+        "tip": "Cast for white perch and spot near the bridge abutments."
+      },
+      "alternates": [
+        {
+          "id": "fort-smallwood",
+          "name": "Fort Smallwood Park",
+          "area": "Pasadena",
+          "drive_min": 20,
+          "why": "Rock walls + pier access with picnic tables for a family base camp.",
+          "kids": true,
+          "best": "two hours before high",
+          "tip": "Bring sweatshirts for the evening breeze off the Patapsco."
+        },
+        {
+          "id": "sandy-point",
+          "name": "Sandy Point State Park",
+          "area": "Skidmore",
+          "drive_min": 22,
+          "why": "Bay beach, jetties, and a classic Chesapeake horizon.",
+          "kids": true,
+          "best": "morning flood / late afternoon",
+          "tip": "State park entry fee; check wind \u2014 whitecaps mean tough casting."
+        }
+      ],
+      "weather": {
+        "date": "2026-10-17",
+        "weather_code": 2,
+        "label": "Partly cloudy",
+        "icon": "\u26c5",
+        "temp_max_f": 55.9,
+        "temp_min_f": 38.3,
+        "precip_in": 0.0,
+        "precip_prob": 16,
+        "sunrise": "2026-10-17T07:18",
+        "sunset": "2026-10-17T18:25",
+        "wind_mph": 19.5
+      },
+      "tides": [
+        {
+          "t": "2026-10-17 05:02",
+          "v": 0.843,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-17 10:01",
+          "v": 1.106,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-17 16:11",
+          "v": 0.461,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-17 23:15",
+          "v": 1.501,
+          "type": "H"
+        }
+      ],
+      "score": 58.6,
+      "window": "around high tide 10:01 AM (1.106 ft MLLW)",
+      "rainy": false,
+      "kids_mode": true,
+      "blurb": "Jonas Green Park (Annapolis, ~18 min). Saturday: \u26c5 Partly cloudy, 38\u201356\u00b0F, 16% precip. Cast for white perch and spot near the bridge abutments."
+    },
+    {
+      "id": "plan-wildlife-2026-10-18",
+      "day_index": 2,
+      "date": "2026-10-18",
+      "weekday": "Sunday",
+      "kind": "wildlife",
+      "title": "Wildlife / marsh morning",
+      "spot": {
+        "id": "downs-wildlife",
+        "name": "Downs Park \u00b7 bay overlook",
+        "area": "Pasadena",
+        "drive_min": 18,
+        "why": "Easy cliff-top birding and Bay views \u2014 short hop for Char & Vic.",
+        "kids": true,
+        "best": "morning / dusk",
+        "tip": "Bring binoculars; watch for osprey over the water."
+      },
+      "alternates": [
+        {
+          "id": "patuxent-north",
+          "name": "Patuxent Research Refuge \u2014 North Tract",
+          "area": "Laurel / Bowie edge",
+          "drive_min": 28,
+          "why": "Wildlife driving loop and quiet trails; deer, waterfowl, and big sky.",
+          "kids": true,
+          "best": "morning",
+          "tip": "Visitor contact station hours vary \u2014 pack binoculars."
+        },
+        {
+          "id": "cbec",
+          "name": "Chesapeake Bay Environmental Center",
+          "area": "Grasonville",
+          "drive_min": 40,
+          "why": "Marsh trails, raptors, and Eastern Shore vibes across the Bay Bridge.",
+          "kids": true,
+          "best": "late morning",
+          "tip": "Combine with a Kent Narrows snack stop."
+        }
+      ],
+      "weather": {
+        "date": "2026-10-18",
+        "weather_code": 1,
+        "label": "Mostly clear",
+        "icon": "\ud83c\udf24\ufe0f",
+        "temp_max_f": 53.8,
+        "temp_min_f": 34.5,
+        "precip_in": 0.0,
+        "precip_prob": 5,
+        "sunrise": "2026-10-18T07:19",
+        "sunset": "2026-10-18T18:23",
+        "wind_mph": 12.8
+      },
+      "tides": [
+        {
+          "t": "2026-10-18 05:54",
+          "v": 0.837,
+          "type": "L"
+        },
+        {
+          "t": "2026-10-18 10:59",
+          "v": 1.093,
+          "type": "H"
+        },
+        {
+          "t": "2026-10-18 17:05",
+          "v": 0.495,
+          "type": "L"
+        }
+      ],
+      "score": 60.0,
+      "window": "aim for golden hour before sunset 6:23 PM",
+      "rainy": false,
+      "kids_mode": true,
+      "blurb": "Downs Park \u00b7 bay overlook (Pasadena, ~18 min). Sunday: \ud83c\udf24\ufe0f Mostly clear, 34\u201354\u00b0F, 5% precip. Binoculars optional; quiet voices near the marsh."
+    }
+  ],
+  "backup": {
+    "id": "rain-backup",
+    "title": "Rainy-day backup",
+    "trigger_day": "2026-10-16",
+    "trigger_weekday": "Friday",
+    "trigger_prob": 33,
+    "spot": {
+      "id": "home-base",
+      "name": "Home base \u00b7 Millersville",
+      "area": "777 Springbloom vibes",
+      "drive_min": 0,
+      "why": "Board games, movie marathon, and a backyard porch rainwatch.",
+      "kids": true,
+      "best": "peak rain hours",
+      "tip": "Stock popcorn; save parks for the next clear break."
+    },
+    "alternates": [
+      {
+        "id": "maryland-hall",
+        "name": "Maryland Hall / West Street stroll",
+        "area": "Annapolis",
+        "drive_min": 20,
+        "why": "Indoor arts + covered caf\u00e9 hops without a long drive.",
+        "kids": true,
+        "best": "afternoon",
+        "tip": "Look for family workshops on the weekend calendar."
+      },
+      {
+        "id": "annapolis-maritime",
+        "name": "Annapolis Maritime Museum",
+        "area": "Eastport",
+        "drive_min": 22,
+        "why": "Hands-on bay exhibits under a roof when the sky opens up.",
+        "kids": true,
+        "best": "any rainy window",
+        "tip": "Check weekend hours; pair with hot cocoa in Eastport."
+      }
+    ],
+    "blurb": "If Friday's precip odds hold (33%), pivot to Home base \u00b7 Millersville instead of forcing a soaked trail."
+  },
+  "backup_kids": {
+    "id": "rain-backup",
+    "title": "Rainy-day backup",
+    "trigger_day": "2026-10-16",
+    "trigger_weekday": "Friday",
+    "trigger_prob": 33,
+    "spot": {
+      "id": "home-base",
+      "name": "Home base \u00b7 Millersville",
+      "area": "777 Springbloom vibes",
+      "drive_min": 0,
+      "why": "Board games, movie marathon, and a backyard porch rainwatch.",
+      "kids": true,
+      "best": "peak rain hours",
+      "tip": "Stock popcorn; save parks for the next clear break."
+    },
+    "alternates": [
+      {
+        "id": "maryland-hall",
+        "name": "Maryland Hall / West Street stroll",
+        "area": "Annapolis",
+        "drive_min": 20,
+        "why": "Indoor arts + covered caf\u00e9 hops without a long drive.",
+        "kids": true,
+        "best": "afternoon",
+        "tip": "Look for family workshops on the weekend calendar."
+      },
+      {
+        "id": "annapolis-maritime",
+        "name": "Annapolis Maritime Museum",
+        "area": "Eastport",
+        "drive_min": 22,
+        "why": "Hands-on bay exhibits under a roof when the sky opens up.",
+        "kids": true,
+        "best": "any rainy window",
+        "tip": "Check weekend hours; pair with hot cocoa in Eastport."
+      }
+    ],
+    "blurb": "If Friday's precip odds hold (33%), pivot to Home base \u00b7 Millersville instead of forcing a soaked trail."
+  },
+  "spots_catalog": {
+    "fishing": [
+      {
+        "id": "jonas-green",
+        "name": "Jonas Green Park",
+        "area": "Annapolis",
+        "drive_min": 18,
+        "why": "Free fishing pier on the Severn with easy parking and restrooms.",
+        "kids": true,
+        "best": "incoming tide / dusk",
+        "tip": "Cast for white perch and spot near the bridge abutments."
+      },
+      {
+        "id": "sandy-point",
+        "name": "Sandy Point State Park",
+        "area": "Skidmore",
+        "drive_min": 22,
+        "why": "Bay beach, jetties, and a classic Chesapeake horizon.",
+        "kids": true,
+        "best": "morning flood / late afternoon",
+        "tip": "State park entry fee; check wind \u2014 whitecaps mean tough casting."
+      },
+      {
+        "id": "fort-smallwood",
+        "name": "Fort Smallwood Park",
+        "area": "Pasadena",
+        "drive_min": 20,
+        "why": "Rock walls + pier access with picnic tables for a family base camp.",
+        "kids": true,
+        "best": "two hours before high",
+        "tip": "Bring sweatshirts for the evening breeze off the Patapsco."
+      }
+    ],
+    "trails": [
+      {
+        "id": "kinder-farm",
+        "name": "Kinder Farm Park",
+        "area": "Millersville",
+        "drive_min": 8,
+        "why": "Home-base trails, farm animals, playgrounds \u2014 Char & Vic territory.",
+        "kids": true,
+        "best": "morning / golden hour",
+        "tip": "Loop the Farm Trail then hit the playground before sunset."
+      },
+      {
+        "id": "quiet-waters",
+        "name": "Quiet Waters Park",
+        "area": "Annapolis",
+        "drive_min": 20,
+        "why": "Wooded paths, South River overlooks, sculptures, and a big playground.",
+        "kids": true,
+        "best": "late afternoon",
+        "tip": "Walk to the overlook for sunset colors on the river."
+      },
+      {
+        "id": "downs-park",
+        "name": "Downs Park",
+        "area": "Pasadena",
+        "drive_min": 18,
+        "why": "Bay cliffs, boardwalk, and open fields for a frisbee cooldown.",
+        "kids": true,
+        "best": "midday to dusk",
+        "tip": "Cliff trail can be breezy \u2014 great for kite days."
+      }
+    ],
+    "wildlife": [
+      {
+        "id": "patuxent-north",
+        "name": "Patuxent Research Refuge \u2014 North Tract",
+        "area": "Laurel / Bowie edge",
+        "drive_min": 28,
+        "why": "Wildlife driving loop and quiet trails; deer, waterfowl, and big sky.",
+        "kids": true,
+        "best": "morning",
+        "tip": "Visitor contact station hours vary \u2014 pack binoculars."
+      },
+      {
+        "id": "downs-wildlife",
+        "name": "Downs Park \u00b7 bay overlook",
+        "area": "Pasadena",
+        "drive_min": 18,
+        "why": "Easy cliff-top birding and Bay views \u2014 short hop for Char & Vic.",
+        "kids": true,
+        "best": "morning / dusk",
+        "tip": "Bring binoculars; watch for osprey over the water."
+      },
+      {
+        "id": "jug-bay",
+        "name": "Jug Bay Wetlands Sanctuary",
+        "area": "Lothian",
+        "drive_min": 30,
+        "why": "Marsh boardwalks and Patuxent River overlooks for birding.",
+        "kids": false,
+        "best": "morning / outgoing tide",
+        "tip": "Closed Mondays; wear boots after rain."
+      },
+      {
+        "id": "cbec",
+        "name": "Chesapeake Bay Environmental Center",
+        "area": "Grasonville",
+        "drive_min": 40,
+        "why": "Marsh trails, raptors, and Eastern Shore vibes across the Bay Bridge.",
+        "kids": true,
+        "best": "late morning",
+        "tip": "Combine with a Kent Narrows snack stop."
+      }
+    ],
+    "rain": [
+      {
+        "id": "annapolis-maritime",
+        "name": "Annapolis Maritime Museum",
+        "area": "Eastport",
+        "drive_min": 22,
+        "why": "Hands-on bay exhibits under a roof when the sky opens up.",
+        "kids": true,
+        "best": "any rainy window",
+        "tip": "Check weekend hours; pair with hot cocoa in Eastport."
+      },
+      {
+        "id": "maryland-hall",
+        "name": "Maryland Hall / West Street stroll",
+        "area": "Annapolis",
+        "drive_min": 20,
+        "why": "Indoor arts + covered caf\u00e9 hops without a long drive.",
+        "kids": true,
+        "best": "afternoon",
+        "tip": "Look for family workshops on the weekend calendar."
+      },
+      {
+        "id": "home-base",
+        "name": "Home base \u00b7 Millersville",
+        "area": "777 Springbloom vibes",
+        "drive_min": 0,
+        "why": "Board games, movie marathon, and a backyard porch rainwatch.",
+        "kids": true,
+        "best": "peak rain hours",
+        "tip": "Stock popcorn; save parks for the next clear break."
+      }
+    ]
+  },
+  "note": "Demo fallback for Weekend Gameplan. Weather and tide figures are a snapshot labeled EXAMPLE \u2014 not live. Used only when network fetch fails."
+}

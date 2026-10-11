@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Weekend Gameplan · Boyd family Friday card</title>
+<meta name="theme-color" content="#0c1a12">
+<meta name="description" content="Friday outing card for the Boyd family in Millersville MD — weather, sunset, Chesapeake tides, three plans plus rainy-day backup.">
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<div class="bg-wash" aria-hidden="true"></div>
+<div class="bg-trees" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="top">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 48 48" width="42" height="42">
+        <defs>
+          <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#86efac"/><stop offset="1" stop-color="#22c55e"/>
+          </linearGradient>
+          <linearGradient id="bay" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#0ea5e9"/>
+          </linearGradient>
+        </defs>
+        <rect x="2" y="2" width="44" height="44" rx="12" fill="#0f2418" stroke="url(#leaf)" stroke-width="2"/>
+        <path d="M14 32c6-14 10-18 20-20-2 10-6 18-16 22z" fill="url(#leaf)" opacity=".9"/>
+        <path d="M8 36c5-4 10-4 16 0s10 4 16 0" fill="none" stroke="url(#bay)" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="34" cy="14" r="4.5" fill="#fde68a"/>
+      </svg>
+    </div>
+    <div>
+      <h1>Weekend Gameplan</h1>
+      <p class="tag">Boyd Friday card · Millersville / Annapolis · Chesapeake</p>
+    </div>
+  </div>
+  <div class="top-actions">
+    <span class="pill" id="dataPill">loading…</span>
+    <span class="pill clock" id="clockPill">—</span>
+  </div>
+</header>
+
+<div id="demoBanner" class="demo-banner" hidden>
+  Demo data — live weather/tide fetch unavailable
+</div>
+
+<nav class="tabs" role="tablist" aria-label="Gameplan screens">
+  <button class="tab active" data-view="home" role="tab" aria-selected="true">Home</button>
+  <button class="tab" data-view="plans" role="tab" aria-selected="false">Plans</button>
+  <button class="tab" data-view="weather" role="tab" aria-selected="false">Weather</button>
+  <button class="tab" data-view="about" role="tab" aria-selected="false">About</button>
+</nav>
+
+<main>
+  <!-- HOME -->
+  <section id="view-home" class="view active" role="tabpanel">
+    <div class="hero-strip panel glow">
+      <div class="hero-copy">
+        <p class="eyebrow">Upcoming weekend</p>
+        <h2 id="weekendLabel">—</h2>
+        <p class="lead" id="heroLead">Three outing plans from weather, sunset, and Annapolis tides — plus a rainy-day backup.</p>
+        <div class="toggle-row">
+          <label class="kids-toggle" for="kidsPick">
+            <input type="checkbox" id="kidsPick">
+            <span class="switch" aria-hidden="true"></span>
+            <span class="toggle-text">
+              <strong>Kids’ pick</strong>
+              <em>Emphasize Char &amp; Vic–friendly spots</em>
+            </span>
+          </label>
+        </div>
+      </div>
+      <div class="day-chips" id="dayChips"></div>
+    </div>
+
+    <div class="plans-grid" id="homePlans"></div>
+
+    <div class="panel backup-card" id="homeBackup"></div>
+  </section>
+
+  <!-- PLANS -->
+  <section id="view-plans" class="view" role="tabpanel" hidden>
+    <div class="panel-head page-head">
+      <h3>Outing briefs</h3>
+      <p class="hint">Fishing · trails · wildlife — local public parks near Millersville / Annapolis</p>
+    </div>
+    <div class="plans-stack" id="plansStack"></div>
+    <div class="panel backup-card" id="plansBackup"></div>
+  </section>
+
+  <!-- WEATHER -->
+  <section id="view-weather" class="view" role="tabpanel" hidden>
+    <div class="weather-grid">
+      <div class="panel">
+        <div class="panel-head">
+          <h3>Weekend forecast</h3>
+          <p class="hint">Open-Meteo · Millersville MD 21108</p>
+        </div>
+        <div class="wx-table-wrap">
+          <table class="wx-table" id="wxTable">
+            <thead>
+              <tr><th>Day</th><th>Sky</th><th>High / Low</th><th>Rain</th><th>Wind</th><th>Sunrise</th><th>Sunset</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <h3>Annapolis tides</h3>
+          <p class="hint">NOAA station 8575512 · MLLW feet</p>
+        </div>
+        <div class="tide-list" id="tideList"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="view-about" class="view" role="tabpanel" hidden>
+    <div class="about-grid">
+      <div class="panel">
+        <div class="panel-head"><h3>About this card</h3></div>
+        <p class="about-copy">
+          Friday planning board for the Boyd household in Millersville, MD.
+          Pulls <strong>Open-Meteo</strong> weather + sunset for home coordinates and
+          <strong>NOAA CO-OPS</strong> tide predictions for Annapolis (8575512).
+          Suggests three local outings (fishing, trails, wildlife) and a rainy-day backup.
+          If the network fails, a clearly labeled EXAMPLE dataset is embedded.
+        </p>
+        <ul class="facts">
+          <li><span>Source</span><strong id="aboutSource">—</strong></li>
+          <li><span>Fetched</span><strong id="aboutFetched">—</strong></li>
+          <li><span>Live?</span><strong id="aboutLive">—</strong></li>
+          <li><span>Port</span><strong>127.0.0.1:4307</strong></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>How picks work</h3></div>
+        <p class="about-copy" id="aboutNote">—</p>
+        <p class="about-copy muted">
+          Kids’ pick reorders toward playground-friendly parks (Kinder Farm, Quiet Waters, Downs).
+          Tide windows favor fishing; golden-hour sunsets favor trails and overlooks.
+          Never invent numbers — live fetch or labeled demo only.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>TokenMax · Weekend Gameplan</span>
+  <span id="footStatus">—</span>
+</footer>
+
+<script>
+window.__DATA__ = /*__DATA__*/ null /*__/DATA__*/;
+</script>
+<script>/*__APP__*/</script>
+</body>
+</html>
