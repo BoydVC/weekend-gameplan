@@ -308,7 +308,7 @@
 
     $("#weekendLabel").textContent = (DATA.weekend && DATA.weekend.label) || "—";
     $("#heroLead").textContent = kidsMode
-      ? "Kids’ pick on — Char & Vic friendly parks get priority across the three outing cards."
+      ? "Kids’ pick on — Alex & Sam friendly parks get priority across the three outing cards."
       : "Three outing plans from weather, sunset, and Annapolis tides — plus a rainy-day backup.";
 
     renderChips();

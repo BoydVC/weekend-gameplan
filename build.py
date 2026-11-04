@@ -222,7 +222,7 @@ SPOTS = {
             "name": "Kinder Farm Park",
             "area": "Millersville",
             "drive_min": 8,
-            "why": "Home-base trails, farm animals, playgrounds — Char & Vic territory.",
+            "why": "Home-base trails, farm animals, playgrounds — Alex & Sam territory.",
             "kids": True,
             "best": "morning / golden hour",
             "tip": "Loop the Farm Trail then hit the playground before sunset.",
@@ -264,7 +264,7 @@ SPOTS = {
             "name": "Downs Park · bay overlook",
             "area": "Pasadena",
             "drive_min": 18,
-            "why": "Easy cliff-top birding and Bay views — short hop for Char & Vic.",
+            "why": "Easy cliff-top birding and Bay views — short hop for Alex & Sam.",
             "kids": True,
             "best": "morning / dusk",
             "tip": "Bring binoculars; watch for osprey over the water.",
@@ -513,7 +513,7 @@ def _blurb(kind, spot, wx, meta):
     if kind == "fishing":
         bits.append(spot["tip"])
     elif kind == "trails":
-        bits.append("Pack water bottles and a light layer for Char & Vic.")
+        bits.append("Pack water bottles and a light layer for Alex & Sam.")
     else:
         bits.append("Binoculars optional; quiet voices near the marsh.")
     return " ".join(bits)
