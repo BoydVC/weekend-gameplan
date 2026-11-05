@@ -1,8 +1,8 @@
 # Weekend Gameplan
 
-Friday outing card for the Boyd family (Millersville MD 21108). TokenMax burn build — outdoor plans from weather, sunset, and Chesapeake tides.
+Friday outing card for the Rivera family (Lakeside MD 01234). TokenMax burn build — outdoor plans from weather, sunset, and Chesapeake tides.
 
-Prefers real public **Open-Meteo** (Millersville weather + sunrise/sunset) and **NOAA CO-OPS** predictions for station **8575512 (Annapolis)**. If fetch fails, embeds a clearly labeled EXAMPLE/demo dataset and shows a banner.
+Prefers real public **Open-Meteo** (Lakeside weather + sunrise/sunset) and **NOAA CO-OPS** predictions for station **8575512 (Annapolis)**. If fetch fails, embeds a clearly labeled EXAMPLE/demo dataset and shows a banner.
 
 ## Screens
 
@@ -30,7 +30,7 @@ Offline single file: `dist/weekend-gameplan.html`
 
 ---
 ## Repo notes
-- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Boyd's Grok Bot) on the Grok Bot box.
+- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Alex's Grok Bot) on the Grok Bot box.
 - **Run:** `./run.sh` (then open the localhost URL it prints).
 - Imported from `/workspace/tokenmax/weekend-gameplan` on Oct 23, 2026. node_modules, virtualenvs, logs and files over 20 MB were left out.
 - Personal details (emails, phone numbers, home street address) were replaced with `[redacted-…]` placeholders.
