@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 HERE = os.path.dirname(os.path.abspath(__file__))
 ET = ZoneInfo("America/New_York")
 STATION = "8575512"
-# Millersville, MD 21108
+# Lakeside, MD 21108
 LAT, LON = 39.0596, -76.6477
 
 
@@ -141,7 +141,7 @@ def fetch_weather(days):
         "source": "Open-Meteo",
         "live": True,
         "location": {
-            "name": "Millersville, MD 21108",
+            "name": "Lakeside, MD 21108",
             "lat": LAT,
             "lon": LON,
             "near": "Annapolis / Chesapeake Bay",
@@ -220,9 +220,9 @@ SPOTS = {
         {
             "id": "kinder-farm",
             "name": "Kinder Farm Park",
-            "area": "Millersville",
+            "area": "Lakeside",
             "drive_min": 8,
-            "why": "Home-base trails, farm animals, playgrounds — Alex & Sam territory.",
+            "why": "Home-base trails, farm animals, playgrounds — Ri & Jo territory.",
             "kids": True,
             "best": "morning / golden hour",
             "tip": "Loop the Farm Trail then hit the playground before sunset.",
@@ -264,7 +264,7 @@ SPOTS = {
             "name": "Downs Park · bay overlook",
             "area": "Pasadena",
             "drive_min": 18,
-            "why": "Easy cliff-top birding and Bay views — short hop for Alex & Sam.",
+            "why": "Easy cliff-top birding and Bay views — short hop for Ri & Jo.",
             "kids": True,
             "best": "morning / dusk",
             "tip": "Bring binoculars; watch for osprey over the water.",
@@ -313,8 +313,8 @@ SPOTS = {
         },
         {
             "id": "home-base",
-            "name": "Home base · Millersville",
-            "area": "777 Springbloom vibes",
+            "name": "Home base · Lakeside",
+            "area": "100 Oak Street vibes",
             "drive_min": 0,
             "why": "Board games, movie marathon, and a backyard porch rainwatch.",
             "kids": True,
@@ -513,7 +513,7 @@ def _blurb(kind, spot, wx, meta):
     if kind == "fishing":
         bits.append(spot["tip"])
     elif kind == "trails":
-        bits.append("Pack water bottles and a light layer for Alex & Sam.")
+        bits.append("Pack water bottles and a light layer for Ri & Jo.")
     else:
         bits.append("Binoculars optional; quiet voices near the marsh.")
     return " ".join(bits)
@@ -540,7 +540,7 @@ def build_payload(prefer_kids=False):
         "fetched_at": now.isoformat(timespec="seconds"),
         "timezone": "America/New_York",
         "home": {
-            "label": "Boyd family · Millersville MD 21108",
+            "label": "Rivera family · Lakeside MD 01234",
             "lat": LAT,
             "lon": LON,
         },

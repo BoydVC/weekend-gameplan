@@ -4,7 +4,7 @@
   "fetched_at": "2026-10-11T16:40:54-04:00",
   "timezone": "America/New_York",
   "home": {
-    "label": "Boyd family \u00b7 Millersville MD 21108",
+    "label": "Rivera family \u00b7 Lakeside MD 01234",
     "lat": 39.0596,
     "lon": -76.6477
   },
@@ -18,7 +18,7 @@
     "source": "Open-Meteo",
     "live": true,
     "location": {
-      "name": "Millersville, MD 21108",
+      "name": "Lakeside, MD 21108",
       "lat": 39.0596,
       "lon": -76.6477,
       "near": "Annapolis / Chesapeake Bay"
@@ -431,9 +431,9 @@
       "spot": {
         "id": "kinder-farm",
         "name": "Kinder Farm Park",
-        "area": "Millersville",
+        "area": "Lakeside",
         "drive_min": 8,
-        "why": "Home-base trails, farm animals, playgrounds \u2014 Alex & Sam territory.",
+        "why": "Home-base trails, farm animals, playgrounds \u2014 Ri & Jo territory.",
         "kids": true,
         "best": "morning / golden hour",
         "tip": "Loop the Farm Trail then hit the playground before sunset."
@@ -499,7 +499,7 @@
       "window": "aim for golden hour before sunset 6:26 PM",
       "rainy": false,
       "kids_mode": false,
-      "blurb": "Kinder Farm Park (Millersville, ~8 min). Friday: \ud83c\udf26\ufe0f Light drizzle, 58\u201381\u00b0F, 33% precip. Pack water bottles and a light layer for Alex & Sam."
+      "blurb": "Kinder Farm Park (Lakeside, ~8 min). Friday: \ud83c\udf26\ufe0f Light drizzle, 58\u201381\u00b0F, 33% precip. Pack water bottles and a light layer for Ri & Jo."
     },
     {
       "id": "plan-fishing-2026-10-17",
@@ -604,7 +604,7 @@
           "name": "Downs Park \u00b7 bay overlook",
           "area": "Pasadena",
           "drive_min": 18,
-          "why": "Easy cliff-top birding and Bay views \u2014 short hop for Alex & Sam.",
+          "why": "Easy cliff-top birding and Bay views \u2014 short hop for Ri & Jo.",
           "kids": true,
           "best": "morning / dusk",
           "tip": "Bring binoculars; watch for osprey over the water."
@@ -668,9 +668,9 @@
       "spot": {
         "id": "kinder-farm",
         "name": "Kinder Farm Park",
-        "area": "Millersville",
+        "area": "Lakeside",
         "drive_min": 8,
-        "why": "Home-base trails, farm animals, playgrounds \u2014 Alex & Sam territory.",
+        "why": "Home-base trails, farm animals, playgrounds \u2014 Ri & Jo territory.",
         "kids": true,
         "best": "morning / golden hour",
         "tip": "Loop the Farm Trail then hit the playground before sunset."
@@ -736,7 +736,7 @@
       "window": "aim for golden hour before sunset 6:26 PM",
       "rainy": false,
       "kids_mode": true,
-      "blurb": "Kinder Farm Park (Millersville, ~8 min). Friday: \ud83c\udf26\ufe0f Light drizzle, 58\u201381\u00b0F, 33% precip. Pack water bottles and a light layer for Alex & Sam."
+      "blurb": "Kinder Farm Park (Lakeside, ~8 min). Friday: \ud83c\udf26\ufe0f Light drizzle, 58\u201381\u00b0F, 33% precip. Pack water bottles and a light layer for Ri & Jo."
     },
     {
       "id": "plan-fishing-2026-10-17",
@@ -830,7 +830,7 @@
         "name": "Downs Park \u00b7 bay overlook",
         "area": "Pasadena",
         "drive_min": 18,
-        "why": "Easy cliff-top birding and Bay views \u2014 short hop for Alex & Sam.",
+        "why": "Easy cliff-top birding and Bay views \u2014 short hop for Ri & Jo.",
         "kids": true,
         "best": "morning / dusk",
         "tip": "Bring binoculars; watch for osprey over the water."
@@ -902,8 +902,8 @@
     "trigger_prob": 33,
     "spot": {
       "id": "home-base",
-      "name": "Home base \u00b7 Millersville",
-      "area": "777 Springbloom vibes",
+      "name": "Home base \u00b7 Lakeside",
+      "area": "100 Oak Street vibes",
       "drive_min": 0,
       "why": "Board games, movie marathon, and a backyard porch rainwatch.",
       "kids": true,
@@ -932,7 +932,7 @@
         "tip": "Check weekend hours; pair with hot cocoa in Eastport."
       }
     ],
-    "blurb": "If Friday's precip odds hold (33%), pivot to Home base \u00b7 Millersville instead of forcing a soaked trail."
+    "blurb": "If Friday's precip odds hold (33%), pivot to Home base \u00b7 Lakeside instead of forcing a soaked trail."
   },
   "backup_kids": {
     "id": "rain-backup",
@@ -942,8 +942,8 @@
     "trigger_prob": 33,
     "spot": {
       "id": "home-base",
-      "name": "Home base \u00b7 Millersville",
-      "area": "777 Springbloom vibes",
+      "name": "Home base \u00b7 Lakeside",
+      "area": "100 Oak Street vibes",
       "drive_min": 0,
       "why": "Board games, movie marathon, and a backyard porch rainwatch.",
       "kids": true,
@@ -972,7 +972,7 @@
         "tip": "Check weekend hours; pair with hot cocoa in Eastport."
       }
     ],
-    "blurb": "If Friday's precip odds hold (33%), pivot to Home base \u00b7 Millersville instead of forcing a soaked trail."
+    "blurb": "If Friday's precip odds hold (33%), pivot to Home base \u00b7 Lakeside instead of forcing a soaked trail."
   },
   "spots_catalog": {
     "fishing": [
@@ -1011,9 +1011,9 @@
       {
         "id": "kinder-farm",
         "name": "Kinder Farm Park",
-        "area": "Millersville",
+        "area": "Lakeside",
         "drive_min": 8,
-        "why": "Home-base trails, farm animals, playgrounds \u2014 Alex & Sam territory.",
+        "why": "Home-base trails, farm animals, playgrounds \u2014 Ri & Jo territory.",
         "kids": true,
         "best": "morning / golden hour",
         "tip": "Loop the Farm Trail then hit the playground before sunset."
@@ -1055,7 +1055,7 @@
         "name": "Downs Park \u00b7 bay overlook",
         "area": "Pasadena",
         "drive_min": 18,
-        "why": "Easy cliff-top birding and Bay views \u2014 short hop for Alex & Sam.",
+        "why": "Easy cliff-top birding and Bay views \u2014 short hop for Ri & Jo.",
         "kids": true,
         "best": "morning / dusk",
         "tip": "Bring binoculars; watch for osprey over the water."
@@ -1104,8 +1104,8 @@
       },
       {
         "id": "home-base",
-        "name": "Home base \u00b7 Millersville",
-        "area": "777 Springbloom vibes",
+        "name": "Home base \u00b7 Lakeside",
+        "area": "100 Oak Street vibes",
         "drive_min": 0,
         "why": "Board games, movie marathon, and a backyard porch rainwatch.",
         "kids": true,
